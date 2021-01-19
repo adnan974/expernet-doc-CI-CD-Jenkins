@@ -13,10 +13,10 @@ Lorsqu'ils vont push leur code sur un repository, un CI service(gitHub Action, J
 qui va lancer des commandes à partir du code qui été push. génréralement le code sera déployé et testé sur un serveur pour voir si tout fonctionne correctement.
 
 Le CI/CD apporte plusieurs avantages:
-	- Le developpeur n'a plus besoin de compiler, générer un executable, aller sur un serveur et installer une application. 
+	* Le developpeur n'a plus besoin de compiler, générer un executable, aller sur un serveur et installer une application. 
 	Tout est automatisé à travers un script. Le developpeur gagne du temps tout en évitant les erreurs humaines ou les oublis qu'il peut y avoir.
-	- Les bugs sont detectés plus rapidement et plus tôt car chaque push entraîne le deploiement et le test du code.
-	- Le developpeur a un feedback rapide du code qu'il a push.
+	* Les bugs sont detectés plus rapidement et plus tôt car chaque push entraîne le deploiement et le test du code.
+	* Le developpeur a un feedback rapide du code qu'il a push.
 	
 
 
