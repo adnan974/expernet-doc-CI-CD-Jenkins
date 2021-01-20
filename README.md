@@ -9,23 +9,23 @@ CI/CD est un accronyme qui veut dire: Continuous Integration/Continuous Delivery
 Le CI/CD représente une suite d'étape (pipeline) qui permet d'automatiser  le build, les test, le deploiement d'une application dans un serveur.
 
 Si on rentre un peu plus dans les détails, dans CI/CD, on distingue 3 notions distinctes:
-##### CI(Continuous Integration):
+#### CI(Continuous Integration):
 C'est une suite d'étape qui va s'éxécuter après le push d'un code dans un repository. Généralement, un CI service se déclenchera après le push et exécutera un script dans un CI serveur.
 
 Par exemple, imaginons qu'une équipe de 2 developpeurs veulent travailler sur un projet et qu'ils ont mis en place un systeme d'intégration continu. Lorsqu'ils vont push leur code sur un repository, un CI service(gitHub Action, Jenkins etc...) sera déclenché. Ce service entrainera une suite d'actions qui va lancer des commandes à partir du code qui été push. génréralement le code sera build et testé sur un serveur pour voir si tout fonctionne correctement.
 Ensuite il sera déployé automatiquement dans le serveur de production.
 
-##### CD(Continuous Delivery):
+#### CD(Continuous Delivery):
 C'est une extension de la Continuous Integration. Elle permet de rendre certains processus de deploiement automatique. Cette étape n'est pas à 100% automatique. L'homme peut encore intervenir dans un des étapes du déploiement.  
 
 Si on reprend l'exemple ci-dessous, non seulement le code sera build et testé (CI) mais une fois que ces étapes sont passées, certains processus de déploiement seront aussi executés automatiquement. (CD) 
 
 
-##### CD(Continuous Deployment): 
+#### CD(Continuous Deployment): 
 
 C'est le niveau au dessus du contiuous Delivery. Le continuous deployment rend le processsus de déploiement à 100% automatique. Aucunne intervention de l'homme n'est requise.
 
-##### Le CI/CD apporte plusieurs avantages:
+#### Le CI/CD apporte plusieurs avantages:
 
 * Le developpeur n'a plus besoin de compiler, générer un executable, aller sur un serveur et installer une application. 
 Tout est automatisé à travers un script. Le developpeur gagne du temps tout en évitant les erreurs humaines ou les oublis qu'il peut y avoir.
