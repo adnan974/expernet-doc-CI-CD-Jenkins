@@ -78,19 +78,42 @@ Vérifiez que vous avez bien les plugins suivant installés :
 
 
 
-#### 2 - Lancer l'installation  
+#### 2 - Vérifier l'installation de Maven
+  
+Allez dans "administrer Jenskins", puis dans "Configuration globale des outils"  
 
-Une fois le téléchargement terminé, lancez l'installeur et suivez les différentes étapes.
-Lors de la 2e étape, pour une installation en local (tests), sélectionnez la première option (Run service as LocalSystem)
+![](images/img003.png)   
 
-#### 3 - Lancer Jenkins  
+Ajoutez une installation de Maven :  
 
-Une fois l'installation terminée, Jenkins est installé sur votre machine en tant que service et démarre automatiquement en même temps que Windows. Ouvrez un navigateur et allez sur localhost, sur le port que vous avez configuré pendant l'installation (ex : http://localhost:8080).
-Lors de la première installation de Jenkins, un mot de passe a été généré. La page vous indique le path où se trouve ce mot de passe. Ouvrez une commade windows et utilisez la commande TYPE + path-vers-mot-de-passe afin d'afficher celui-ci
+![](images/img004.png)
 
-```bash
-type [path-to-password]
-```
+(Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste)  
+	
+
+
+#### 3 - Créer un job  
+
+Cliquez sur "nouvel item"  
+
+![](images/img005.png)
+
+Saisissez un nom et séléctionnez "Construire un projet maven" pui cliquez sur "OK"  
+
+![](images/img006.png)  
+
+Saisissez un description du projet, puis dans la partie "Gestion de code source" sélectionnez "Git"
+
+Puis, depuis votre projet GitHub ou GitLab, copiez l'url de votre projet
+
+![](images/img007.png)  
+
+Et collez là dans Repository URL
+
+![](images/img008.png) 
+
+Si votre projet est en private, ajouter vos identifiants et mot de passe en cliquant sur "Ajouter" à côté de "crédentials"
+
 
 ## Troubleshooting - problèmes communs et solutions
 
