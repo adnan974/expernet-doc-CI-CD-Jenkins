@@ -59,7 +59,7 @@ type [path-to-password]
 ## Troubleshooting - problèmes communs et solutions
 
 ## Comparatif avec les technologies similaires
-Voici une liste exhaustive des "concurrents" de Jenkins.
+Voici une liste non exhaustive des "concurrents" de Jenkins.
 
 #### Bitbucket
 * Prix : 3$/mois pas open source
