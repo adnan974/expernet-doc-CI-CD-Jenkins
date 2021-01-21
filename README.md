@@ -67,8 +67,8 @@ type [path-to-password]
 #### 1 - Ajouter les plugins nécessaires
 
 Allez dans "administrer Jenskins", puis dans "Gestion des plugnins"
-![](images/img-01.png)
-![](images/img-02.png)
+![](images/img001.png)
+![](images/img002.png)
 Vérifiez que vous avez bien les plugins suivant installés : 
 	
 * Maven Integration plugin
