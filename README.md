@@ -36,6 +36,11 @@ Tout est automatisé à travers un script. Le developpeur gagne du temps tout en
 
 ## Jenkins - à quoi ça sert ?
 
+Jenkins est un outil open souce d'intégration continu (CI), qui a été developper en java. En utilisant Jenkins, on va créer une pipeline (une suite d'étape) à
+travers des configurations qu'il faudra créer. Ces configurations sont appelés des Jobs.
+
+jenkins a une grande force en ce moment: Sa communauté. Il existe plus de 1000 plugins qu'on peut installer et utiliser. Ce qui rend l'outil relativement complet.
+
 ## Jenkins - Installation (Windows)   
     
 #### 1 - Téléchargement  
