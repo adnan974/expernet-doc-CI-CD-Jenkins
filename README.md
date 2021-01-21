@@ -61,6 +61,37 @@ Lors de la première installation de Jenkins, un mot de passe a été généré.
 ```bash
 type [path-to-password]
 ```
+
+## Jenkins - Création d'un job (Windows, J2EE, Maven)   
+    
+#### 1 - Ajouter les plugins nécessaires
+
+Allez dans "administrer Jenskins", puis dans "Gestion des plugnins"
+![](images/img01.png)
+![](images/img02.png)
+Vérifiez que vous avez bien les plugins suivant installés : 
+	
+* Maven Integration plugin
+* Git plugin
+
+
+
+
+
+#### 2 - Lancer l'installation  
+
+Une fois le téléchargement terminé, lancez l'installeur et suivez les différentes étapes.
+Lors de la 2e étape, pour une installation en local (tests), sélectionnez la première option (Run service as LocalSystem)
+
+#### 3 - Lancer Jenkins  
+
+Une fois l'installation terminée, Jenkins est installé sur votre machine en tant que service et démarre automatiquement en même temps que Windows. Ouvrez un navigateur et allez sur localhost, sur le port que vous avez configuré pendant l'installation (ex : http://localhost:8080).
+Lors de la première installation de Jenkins, un mot de passe a été généré. La page vous indique le path où se trouve ce mot de passe. Ouvrez une commade windows et utilisez la commande TYPE + path-vers-mot-de-passe afin d'afficher celui-ci
+
+```bash
+type [path-to-password]
+```
+
 ## Troubleshooting - problèmes communs et solutions
 
 ## Comparatif avec les technologies similaires
