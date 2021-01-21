@@ -6,14 +6,13 @@ Ce document a pour but d'expliquer ce qu'est Jenkins, comment l'installer ainsi 
 
 CI/CD est un accronyme qui veut dire: Continuous Integration/Continuous Delivery/Deployement.
 
-Le CI/CD représente une suite d'étape (pipeline) qui permet d'automatiser  le build, les test, le deploiement d'une application dans un serveur.
+Le CI/CD représente une suite d'étape (pipeline) qui permet d'automatiser  le build, les tests et le deploiement d'une application dans un serveur.
 
 Si on rentre un peu plus dans les détails, dans CI/CD, on distingue 3 notions distinctes:
 #### CI(Continuous Integration):
 C'est une suite d'étape qui va s'éxécuter après le push d'un code dans un repository. Généralement, un CI service se déclenchera après le push et exécutera un script dans un CI serveur.
 
-Par exemple, imaginons qu'une équipe de 2 developpeurs veulent travailler sur un projet et qu'ils ont mis en place un systeme d'intégration continu. Lorsqu'ils vont push leur code sur un repository, un CI service(gitHub Action, Jenkins etc...) sera déclenché. Ce service entrainera une suite d'actions qui va lancer des commandes à partir du code qui été push. génréralement le code sera build et testé sur un serveur pour voir si tout fonctionne correctement.
-Ensuite il sera déployé automatiquement dans le serveur de production.
+Par exemple, imaginons qu'une équipe de 2 developpeurs veulent travailler sur un projet et qu'ils ont mis en place un systeme d'intégration continu. Lorsqu'ils vont push leur code sur un repository, un CI service(gitHub Action, Jenkins etc...) sera déclenché. Ce service entrainera une suite d'actions qui va lancer des commandes à partir du code qui été push. génréralement le code sera build et testé sur dans serveur pour voir si tout fonctionne correctement.
 
 #### CD(Continuous Delivery):
 C'est une extension de la Continuous Integration. Elle permet de rendre certains processus de deploiement automatique. Cette étape n'est pas à 100% automatique. L'homme peut encore intervenir dans un des étapes du déploiement.  
@@ -41,8 +40,8 @@ Tout est automatisé à travers un script. Le developpeur gagne du temps tout en
     
 #### 1 - Téléchargement  
 
-Allez sur la page officielle de Jenkins, dans la section téléchargement : https://www.jenkins.io/download/
-Sélectionnez la version LTS correspondant à votre système d'exploitation  (dans notre ca, Windows 10 x64).
+Allez sur la page officielle de Jenkins, dans la section téléchargement : https://www.jenkins.io/download/  
+Sélectionnez la version LTS correspondant à votre système d'exploitation  (dans notre cas, Windows 10 x64).
 
 #### 2 - Lancer l'installation  
 
