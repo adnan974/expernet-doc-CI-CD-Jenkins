@@ -63,7 +63,7 @@ type [path-to-password]
 Voici une liste exhaustive des "concurrents" de Jenkins.
 
 #### Bitbucket
-* Payant : 3$/mois pas open source
+* Prix : 3$/mois pas open source
 * Plateforme : web
 * Support : 
 	* Support en ligne
@@ -80,7 +80,7 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
  	* Livraison continue
 
 #### Anypoint Platform
-* Gratuit mais pas open source
+* Prix : Gratuit mais pas open source
 * Plateforme : 
 	* web 
 	* windows
@@ -92,19 +92,40 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Support en ligne
 	* Support téléphonique
 	* Tutoriels vidéo
-* Fonctionnalités : 30
+* Fonctionnalités : 
+	* Contrôles d'accès / autorisations
+	* Outils de collaboration
+	* Test de compatibilité
+	* La modélisation des données
+	* Débogage
+	* Gestion du déploiement
+	* Développement mobile
+	* Pas de code
+	* Reporting / Analytics
+	* Développement de logiciels
+	* Contrôle de la source
+	* Développement d'applications Web
 
 #### GitLab
-* Payant : 4$/mois
+* Prix : 4$/mois
 * Plateforme : web et iphone
 * Support : 
 	* Base de connaissances
 	* FAQ
 	* Forum
-* Fonctionnalités : 47
+* Fonctionnalités : 
+	* Meilleure intégration Docker
+	* La mise à l'échelle des runners est simple
+	* Exécution parallèle des travaux en phases
+	* Risque de pipeline de graphe acyclique dirigé
+	* Très évolutif grâce aux runners simultanés
+	* Intégration des demandes de fusion
+	* Ajout de tâches facile
+	* Problèmes de conflit faciles à gérer
+	* Bonnes politiques de sécurité et de confidentialité
 
 #### Buddy
-* Payant : 75$/mois
+* Prix : compte gratuit mais mise à niveau possible environ 75$/mois
 * Plateforme : Web
 * Support : 
 	* en ligne 
@@ -112,9 +133,34 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 * Fonctionnalités : 34
 
 #### Bitrise
+* Prix : 36$/mois open source
+* Plateforme : 
+	* WEB
+	* windows
+	* mac
+	* Mobile
+* Fonctionnalités : 
+	* Livraison continue
+	* Environnement hébergé
+	* Flux de travail personnalisables
+	* Créer un journal
+ 	* Gestion de la configuration
+ 	* Livraison continue
+ 	* Déploiement continu
+ 	* Débogage
+ 	* Gestion des autorisations
+ 	* Gestion de l'assurance qualité
+ 	* Gestion des tests
+
 #### CircleCI
-* Payant : 30$/mois pas open source
-* Plateforme : web et windows
+* Prix : 30$/mois pas open source
+* Plateforme : 
+	* Docker
+	* Linux
+	* macOS
+	* Android
+	* Windows
+	* Runners auto-hébergés
 * Support : 
 	* Base de connaissances
 	* FAQ
@@ -122,21 +168,64 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Support en ligne
 	* Support téléphonique
 	* Tutoriels vidéo
-* Fonctionnalités : 3
+* Fonctionnalités / avantages : 
+	* Flux de travail pour l'orchestration des tâches
+	* Prise en charge de Docker de première classe
+	* Choix du CPU / RAM
+	* Prise en charge indépendante de la langue (C++, javascript, PHP, etc)
+	* Mise en cache puissante
+	* SSH ou exécutez des versions locales pour un débogage facile
+	* Une sécurité inégalée
+	* Tableau de bord Insights
 
 #### TeamCity
+* Prix : 
+	* licence server pro gratuit
+	* licence build agent 299$
+* Plateforme : 
+	* serveur Apache Tomcat
+	* Windows
+	* Linux
+	* Ubuntu
+	* Debian
+	* RedHat
+	* SUSE
+* Support : 
+	* Support en ligne
+* Fonctionnalités :
+	* Technologie avancée
+	* Intégrations clés
+	* Intégrations Cloud
+	* Intégration continue
+	* Configuration
+	* Historique des builds
+	* Infrastructure des builds
+	* Suivi de la qualité du code
+	* Interopérabilité VCS
+	* Extensibilité et personnalisation
+	* Maintenance système
+	* Gestion des utilisateurs
+	* Commit pré-testé
+
 #### Travis CI
-* Payant : 69$/mois open source
+* Prix : une licence gratuite jusqu'à 249$/mois open source
 * Plateforme : web
 * Support : 
 	* Base de connaissances
 	* FAQ
 	* Forum
 	* Support en ligne
-* Fonctionnalités : 20
+* Fonctionnalités : 
+	* Survaillance des projets GitHub
+	* Exécution des tests et génèration des résultats rapide. L'exécution de tests parallèles est possible.
+	* Création des artefacts et vérification de la qualité du code
+	* Déploiement facile sur les services cloud
+	* Identification les changements de code petits et grands.
+	* Les développeurs peuvent utiliser Travis CI pour regarder les tests lorsqu'ils sont en cours d'exécution.
+	* L'outil s'intègre à Slack, HipChat, Email, etc.
 
 #### Cyclr
-* Payant : 599$/mois pas open source
+* Prix : 599$/mois pas open source
 * Plateforme : web
 * Support : 
 	* Base de connaissances
@@ -155,7 +244,7 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Livraison continue
 
 #### Semaphone
-* Payant : 20$/mois
+* Prix : 20$/mois
 * Plateforme : web
 * Support : 
 	* Base de connaissances
@@ -170,7 +259,7 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Livraison continue
 
 #### Codeship
-* Payant : 49$/mois
+* Prix : 49$/mois
 * Plateforme : web
 * Support : 
 	* Support en ligne
@@ -187,7 +276,7 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Livraison continue
 
 #### Appcircle
-* Payant : 49$/mois
+* Prix : 49$/mois
 * Plateforme : web et mobile
 * Support : 
 	* Support en ligne
@@ -201,7 +290,7 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Livraison continue
 
 #### StarfishETL
-* Payant : 200$/mois
+* Prix : 200$/mois
 * Plateforme : web et windows
 * Support : 
 	* Support en ligne
@@ -216,9 +305,6 @@ Voici une liste exhaustive des "concurrents" de Jenkins.
 	* Déploiement continu
 	* Gestion des tests
 	* Livraison continue
- 		
-#### Delphix
-#### AWS CloudFormation
 
 ## Notre avis
 
