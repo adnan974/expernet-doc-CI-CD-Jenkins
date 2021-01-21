@@ -41,8 +41,8 @@ Tout est automatisé à travers un script. Le developpeur gagne du temps tout en
     
 #### 1 - Téléchargement  
 
-Allez sur la page officielle de Jenkins, dans la section téléchargement : https://www.jenkins.io/download/
-Sélectionnez la version LTS correspondant à votre système d'exploitation  (dans notre ca, Windows 10 x64).
+Allez sur la page officielle de Jenkins, dans la section téléchargement : https://www.jenkins.io/download/  
+Sélectionnez la version LTS correspondant à votre système d'exploitation  (dans notre cas, Windows 10 x64).
 
 #### 2 - Lancer l'installation  
 
