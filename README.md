@@ -2,7 +2,6 @@
 
 Ce document a pour but d'expliquer ce qu'est Jenkins, comment l'installer ainsi que la notion de CI/CD
 
-<a name="headers"/>
 ## CI/CD - Définition et avantages
 
 CI/CD est un accronyme qui veut dire: Continuous Integration/Continuous Delivery/Deployement.
