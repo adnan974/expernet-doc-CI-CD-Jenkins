@@ -96,7 +96,7 @@ Laissez la même configuration comme l'image ci-dessus. Appuyer sur "Appliquer" 
 
 ![](images/img018.PNG)
 
-Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
+Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste. Appuyer sur "Appliquer" puis "Enregistrer"
 
 #### 3 - Vérifier l'installation du JDK
 
@@ -119,7 +119,7 @@ le texte en jaune.(on ne la voit pas sur l'image ci-dessous)
 
 ![](images/img021.PNG)
 
-Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
+Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste. Appuyer sur "Appliquer" puis "Enregistrer"
 
 	
 	
