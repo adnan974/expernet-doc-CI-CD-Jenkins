@@ -198,13 +198,38 @@ Vous pouvez maintenant vérifier dans votre dossier de destination si le .war a 
 
 ## Troubleshooting - problèmes communs et solutions
 
+#### mot de passe de connexion à Jenkins oublié 
+
+![](images/img026.PNG)
+
+Vous êtes sur cette page mais vous avez oubliez votre mot de passe de connexion, et vous avez remarqué qu'il n'y a pas le petit text "mot de passe oublié". Que faire dans ce cas ?
+Il faut modifier le config.xml de jenkins. Pour ce faire:
+
+![](images/img027.PNG)
+
+1) Allez dans le chemin suivant: C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins
+   Vous y trouverez le config.xml. Ouvrez le avec un éditeur de texte.
+ 
+![](images/img028.PNG)
+
+2) Chercher la balise ci-dessus et mettez sa valeur à "false".
+
+![](images/img030.PNG)
+
+3) Allez dans le gestionnaire des services windows (tappez "service" dans la barre de recherche windows et vous devrez le trouver). Chercher le service "Jenkins".
+Puis le redémarrer.
+
+![](images/img031.PNG)
+
+4) Allez sur votre navigateur. Rafraichissez la page. Rafraichissez la page où Jenkins est présent. Vous devriez pouvoir accéder à Jenkins sans demande d'authentification.
+
 #### Erreurs lors du build 
 
 ![](images/img022.PNG)
 Cette erreur indique que votre JDK n'est pas bien configuré. Le chemin du JDK que vous avez spécifié est invalide. (cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven))
 
 
-![](images/img023.PNG)
+![](images/img025.PNG)
 Cette erreur indique que vous avez utilisé la méthode avec l'installation automatique de JDK (cf cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven)) avec des credentials invalides.
 
 
