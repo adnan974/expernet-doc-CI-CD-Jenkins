@@ -67,12 +67,6 @@ type [path-to-password]
 La première fois que vous lancez Jenkins, il vous est proposé d'installer des plugins recommandés ou de selectionner soi-même des plugins à installer.  
 Choisissez la première option afin de béneficier des outils les plus fréquemment utilisés.
 
-_Sources :_
-* _documentation officielle de Jenkins : https://www.jenkins.io/doc/_
-* _site Guru99, tutoriel Jenkins : https://www.guru99.com/jenkins-tutorial.html_
-
-
-
 ## Jenkins - Création d'un job (Windows, J2EE, Maven)   
     
 #### 1 - Ajouter les plugins nécessaires
@@ -203,11 +197,6 @@ Sur cette page vous pourrez voir toutes les étapes par lesquelles passe Jenkins
 
 
 Vous pouvez maintenant vérifier dans votre dossier de destination si le .war a bien été placé.
-
-_Sources :_
-* _documentation officielle de Jenkins : https://www.jenkins.io/doc/_
-* _site Guru99, tutoriel Jenkins : https://www.guru99.com/jenkins-tutorial.html_
-_
 
 ## Troubleshooting - problèmes communs et solutions
 
