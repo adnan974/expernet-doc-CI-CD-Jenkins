@@ -249,6 +249,7 @@ pour palié à ce problème :
 * Remplacez le début de l'URL git 
 	* ex : https://GitLab.com/votreProjet
 	* par : https://nom:token@GitLab.com/votreProjet
+Source de cette solution : https://stackoverflow.com/questions/24813816/why-is-jenkins-failing-when-fetching-from-git-while-the-command-line-isnt
 
 ## Comparatif avec les technologies similaires
 Voici une liste non exhaustive des "concurrents" de Jenkins.
