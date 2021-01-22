@@ -94,15 +94,17 @@ Ajoutez une installation de Maven :
 
 #### 3 - Créer un job  
 
+Ce premier job que nous allons réaliser consite à récupérer un projet depuis Git, générer le .war du projet et déplacer ce .war dans un dossier.
+
 Cliquez sur "nouvel item"  
 
 ![](images/img005.png)
 
-Saisissez un nom et séléctionnez "Construire un projet maven" pui cliquez sur "OK"  
+Saisissez un nom et séléctionnez "Construire un projet maven" puis cliquez sur "OK"  
 
 ![](images/img006.png)  
 
-Saisissez un description du projet, puis dans la partie "Gestion de code source" sélectionnez "Git"
+Saisissez une description du projet, puis dans la partie "Gestion de code source" sélectionnez "Git"
 
 Puis, depuis votre projet GitHub ou GitLab, copiez l'url de votre projet
 
@@ -114,6 +116,53 @@ Et collez là dans Repository URL
 
 Si votre projet est en private, ajouter vos identifiants et mot de passe en cliquant sur "Ajouter" à côté de "crédentials"
 
+Dans la partie "Build", nous allons utiliser les commandes Maven suivantes : clean war:war test.
+Ces commandent permettent de supprimer les anciens fichiers générés, de générer le .war et d'executer les tests unitaires.
+Indiquez également le nom de votre fichier POM à la racine (par défaut, pom.xml)
+
+![](images/img009.png) 
+
+Dans la partie "Post Steps", nous allons déterminer les étapes que nous allons réalisé une fois que le build aura été fait. Dans notre cas, copier le .war vers un dossier.
+Nous allons réaliser cette étape uniquement si le build s'est bien déroulé et que les tests sont passés, pour se faire, cochez la case "Run only if build succeeds"
+Puis cliquez sur "Ajouter une étape post-build et sélectionner "Executer une ligne de commande batch Windows".
+Puis utilisez les commandes suivantes : 
+
+```batch
+rmdir /q /s [dossier de destination]
+mkdir [dossier de destination]
+Xcopy /E /I C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\testtest\target\ExperSocialNetwok2020.war [dossier de destination]
+
+```
+
+(NB : il se peut que le dossier où a été généré votre .war diffère de cet exemple. Si c'est le cas, nous verrons plus tard comment retrouver ce path et modifier cette configuration)
+
+![](images/img010.png) 
+
+Cliquez ensuite sur "Apply" puis sur "Sauver"
+
+![](images/img011.png)
+
+Vous vous retrouvez sur la page de votre projet. Pour lancer votre premier build, cliquez sur le bouton "Lancer un build".
+Dans la parrtie inférieure gauche de la page, vous retoruvez l'historique de vos build ainsi que le build que vous venez de lancer. Cliquez sur ce lien (voir image)
+
+![](images/img012.png)
+
+Vous vous retrouvez sur la page d'état de votre build, sur la droite vous pouvez voir la progression de celui-ci. Pour avoir plus de détails, cliquez sur "Console Output"
+
+![](images/img013.png)
+
+
+Sur cette page vous pourrez voir toutes les étapes par lesquelles passe Jenkins. Sur les images ci-dessous, vous verrez les étapes importantes du build (récupération du code source sur Github / GitLab, génération du .war, execution des test, appel de la commande bash pour copier le fichier).
+![](images/img014.png)
+![](images/img015.png)
+![](images/img016.png)
+
+(Dans la partie "génération du .war" (encadrée en rouge) vous voyez le path ou a été généré le .war. Si celui-ci diffère de l'exemple, vous pouvez modifier votre configuration de buil en cliquant sur le bouton "Configuration"
+
+![](images/img017.png)
+
+
+Vous pouvez maintenant vérifier dans votre dossier de destination si le .war a bien été placé.
 
 ## Troubleshooting - problèmes communs et solutions
 
