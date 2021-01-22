@@ -415,4 +415,7 @@ Voici une liste non exhaustive des "concurrents" de Jenkins.
 
 ## Notre avis
 
+Jenkins représente un réel gain de temps, surtout s'il s'agit d'une entreprise disposant d'un nombre conséquent d'applications.
+Une fois la configuation mise en place, cette technologie permet aux équipe de développeurs de se concentrer sur leur expertise sans se soucier des contraintes de déploiement.
+
 ## Sources
