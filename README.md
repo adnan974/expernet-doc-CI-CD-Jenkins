@@ -202,8 +202,8 @@ Vous pouvez maintenant vérifier dans votre dossier de destination si le .war a 
 
 ![](images/img026.PNG)
 
-Vous êtes sur cette page mais vous avez oubliez votre mot de passe de connexion, et vous avez remarqué qu'il n'y a pas le petit text "mot de passe oublié". Que faire dans ce cas ?
-Il faut modifier le config.xml de jenkins. Pour ce faire:
+Vous êtes sur cette page mais vous avez oubliez votre mot de passe de connexion, et vous avez remarqué qu'il n'y a pas le petit texte "mot de passe oublié". Que faire dans ce cas ?
+Il faut modifier le config.xml de jenkins.Voilà comment procéder:
 
 ![](images/img027.PNG)
 
