@@ -84,11 +84,43 @@ Allez dans "administrer Jenskins", puis dans "Configuration globale des outils"
 
 ![](images/img003.png)   
 
-Ajoutez une installation de Maven :  
+Ajoutez une installation de Maven, il y'a 2 méthodes possibles.
+  
+##### méthode 1:
 
 ![](images/img004.png)
 
-(Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste)  
+Laissez la même configuration comme l'image ci-dessus. Appuyer sur "Appliquer" puis "Enregistrer"
+
+##### méthode 2:
+
+![](images/img018.png)
+
+Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
+
+#### 3 - Vérifier l'installation du JDK
+
+Allez dans "administrer Jenskins", puis dans "Configuration globale des outils"  
+
+![](images/img003.png)   
+
+Ajoutez une installation du JDK, il y'a 2 méthodes possibles.
+
+##### méthode 1 (déconseillée):
+
+![](images/img020.png)
+
+Laissez la même configuration comme l'image ci-dessus. Appuyer sur "Appliquer" puis "Enregistrer".
+
+ATTENTION: cette méthode demande d'ajouter des "credentials" (login et mot de passe) de votre compte java. Jenkins vous propose de les ajouter dans
+le texte en jaune.(on ne la voit pas sur l'image ci-dessous)
+
+##### méthode 2 (conseillée):
+
+![](images/img021.png)
+
+Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
+
 	
 
 
