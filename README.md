@@ -239,12 +239,12 @@ Cette erreur indique que vous avez utilisé la méthode avec l'installation auto
 Cette erreur indique que Maven n'est pas bien configuré. Le chemin de Maven que vous avez spécifié est invalide. (cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven))
 
 ![](images/img032.png)
-Cette erreur indique que Jenkins ne parvient pas à se connecter à votre git. Il se peut que cela se produise même si vous avez rajouter un credential avec pseudo et mot de passe.
+Cette erreur indique que Jenkins ne parvient pas à se connecter à votre git. Il se peut que cela se produise même si vous avez rajouté un credential avec pseudo et mot de passe.
 pour palié à ce problème :
 * Rendez-vous sur les réglages de votre espace git
 * Jetons d'accès
 * Créez un jeton d'accès (renseignez un nom, une date d'expiration, les droits qui iront avec ce token)
-	* ATTENTION --- Pensez à enregistrer le jeton vous ne pourez plus y accéder
+	* ATTENTION --- Pensez à enregistrer le jeton vous ne pourrez plus y accéder
 * Revenez sur la configuration de votre job
 * Remplacez le début de l'URL git 
 	* ex : https://GitLab.com/votreProjet
