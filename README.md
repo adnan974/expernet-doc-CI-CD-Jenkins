@@ -94,7 +94,7 @@ Laissez la même configuration comme l'image ci-dessus. Appuyer sur "Appliquer" 
 
 ##### méthode 2:
 
-![](images/img018.png)
+![](images/img018.PNG)
 
 Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
 
@@ -108,7 +108,7 @@ Ajoutez une installation du JDK, il y'a 2 méthodes possibles.
 
 ##### méthode 1 (déconseillée):
 
-![](images/img020.png)
+![](images/img020.PNG)
 
 Laissez la même configuration comme l'image ci-dessus. Appuyer sur "Appliquer" puis "Enregistrer".
 
@@ -117,13 +117,13 @@ le texte en jaune.(on ne la voit pas sur l'image ci-dessous)
 
 ##### méthode 2 (conseillée):
 
-![](images/img021.png)
+![](images/img021.PNG)
 
 Décochez "Install autommatically" pour sélectionner une installation de Maven déjà présente sur votre poste
 
 	
-
-
+	
+	
 #### 3 - Créer un job  
 
 Ce premier job que nous allons réaliser consite à récupérer un projet depuis Git, générer le .war du projet et déplacer ce .war dans un dossier.
