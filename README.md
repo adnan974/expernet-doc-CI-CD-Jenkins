@@ -238,7 +238,7 @@ Cette erreur indique que vous avez utilisé la méthode avec l'installation auto
 ![](images/img024.PNG)
 Cette erreur indique que Maven n'est pas bien configuré. Le chemin de Maven que vous avez spécifié est invalide. (cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven))
 
-![](images/img032.PNG)
+![](images/img032.png)
 Cette erreur indique que Jenkins ne parvient pas à se connecter à votre git. Il se peut que cela se produise même si vous avez rajouter un credential avec pseudo et mot de passe.
 pour palié à ce problème :
 * Rendez-vous sur les réglages de votre espace git
