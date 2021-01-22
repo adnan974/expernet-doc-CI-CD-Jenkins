@@ -198,6 +198,20 @@ Vous pouvez maintenant vérifier dans votre dossier de destination si le .war a 
 
 ## Troubleshooting - problèmes communs et solutions
 
+#### Erreurs lors du build 
+
+![](images/img022.PNG)
+
+Cette erreur indique que votre JDK n'est pas bien configuré. Le chemin du JDK que vous avez spécifié est invalide. (cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven))
+
+![](images/img023.PNG)
+
+Cette erreur indique que vous avez utilisé la méthode avec l'installation automatique de JDK (cf cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven)) avec des credentials invalides.
+
+![](images/img024.PNG)
+Cette erreur indique que Maven n'est pas bien configuré. Le chemin de Maven que vous avez spécifié est invalide. (cf --> section Jenkins - Création d'un job (Windows, J2EE, Maven))
+
+
 ## Comparatif avec les technologies similaires
 Voici une liste non exhaustive des "concurrents" de Jenkins.
 
